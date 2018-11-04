@@ -1,0 +1,23 @@
+{
+  "name": "node-wechat-dev",
+  "version": "0.0.1",
+  "description": "backend scaffolding using koa framework",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc&&node app.js"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "gym",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-better-body": "^3.0.4",
+    "koa-router": "^7.2.1",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.24"
+  }
+}
